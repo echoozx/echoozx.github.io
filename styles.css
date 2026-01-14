@@ -155,6 +155,39 @@ body {
     transition: var(--transition);
 }
 
+/* 语言切换按钮 */
+.lang-switch {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: var(--spacing-md);
+}
+
+.lang-btn {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: var(--transition);
+}
+
+.lang-btn:hover {
+    color: var(--primary-color);
+}
+
+.lang-btn.active {
+    color: var(--primary-color);
+    font-weight: 600;
+    background: var(--bg-accent);
+}
+
+.lang-divider {
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
 /* ===================================
    按钮样式
    =================================== */
@@ -641,6 +674,11 @@ body {
 
     .nav-toggle {
         display: flex;
+    }
+
+    .lang-switch {
+        margin-left: auto;
+        margin-right: var(--spacing-sm);
     }
 
     .nav-toggle.active span:nth-child(1) {
