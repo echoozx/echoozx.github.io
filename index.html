@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="TURTLE RIBS PTE. LTD. - 新能源技术咨询与IT软件研发服务提供商">
-    <meta name="keywords" content="新能源,技术咨询,IT软件,研发,绿色能源,低碳">
+    <meta name="description" data-i18n-attr="content" data-i18n-key="meta_description"
+        content="TURTLE RIBS PTE. LTD. - 新能源技术咨询与IT软件研发服务提供商">
+    <meta name="keywords" data-i18n-attr="content" data-i18n-key="meta_keywords" content="新能源,技术咨询,IT软件,研发,绿色能源,低碳">
     <title>TURTLE RIBS PTE. LTD. | 新能源技术咨询与IT软件研发</title>
     <link rel="stylesheet" href="styles.css">
     <link
@@ -22,12 +23,17 @@
                 <span class="logo-text">TURTLE RIBS</span>
             </div>
             <ul class="nav-links">
-                <li><a href="#home">首页</a></li>
-                <li><a href="#about">关于我们</a></li>
-                <li><a href="#services">业务范围</a></li>
-                <li><a href="#values">企业理念</a></li>
-                <li><a href="#contact">联系我们</a></li>
+                <li><a href="#home" data-i18n="nav_home">首页</a></li>
+                <li><a href="#about" data-i18n="nav_about">关于我们</a></li>
+                <li><a href="#services" data-i18n="nav_services">业务范围</a></li>
+                <li><a href="#values" data-i18n="nav_values">企业理念</a></li>
+                <li><a href="#contact" data-i18n="nav_contact">联系我们</a></li>
             </ul>
+            <div class="lang-switch" id="langSwitch">
+                <span class="lang-btn active" data-lang="zh">中文</span>
+                <span class="lang-divider">|</span>
+                <span class="lang-btn" data-lang="en">EN</span>
+            </div>
             <div class="nav-toggle" id="navToggle">
                 <span></span>
                 <span></span>
@@ -40,9 +46,9 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>TURTLE RIBS PTE. LTD.</h1>
-            <p class="hero-subtitle">携手共创绿色未来，智慧驱动长期价值</p>
-            <p class="hero-desc">专注新能源技术咨询与IT软件研发，为您提供专业、高效的解决方案</p>
-            <a href="#contact" class="btn btn-primary">联系我们</a>
+            <p class="hero-subtitle" data-i18n="hero_subtitle">携手共创绿色未来，智慧驱动长期价值</p>
+            <p class="hero-desc" data-i18n="hero_desc">专注新能源技术咨询与IT软件研发，为您提供专业、高效的解决方案</p>
+            <a href="#contact" class="btn btn-primary" data-i18n="btn_contact_us">联系我们</a>
         </div>
         <div class="hero-bg"></div>
     </section>
@@ -50,24 +56,25 @@
     <!-- 关于我们 -->
     <section id="about" class="section about">
         <div class="container">
-            <h2 class="section-title">关于我们</h2>
+            <h2 class="section-title" data-i18n="about_title">关于我们</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>TURTLE RIBS PTE. LTD. 是一家专注于新能源技术咨询与IT软件研发的综合性科技服务公司。我们致力于为客户提供专业的技术顾问服务和创新的软件解决方案。</p>
-                    <p>如同我们名字中的海龟一般，我们坚持稳健、持久的发展理念，以长远的眼光和扎实的专业能力，助力企业实现可持续发展目标。</p>
+                    <p data-i18n="about_text1">TURTLE RIBS PTE. LTD.
+                        是一家专注于新能源技术咨询与IT软件研发的综合性科技服务公司。我们致力于为客户提供专业的技术顾问服务和创新的软件解决方案。</p>
+                    <p data-i18n="about_text2">如同我们名字中的海龟一般，我们坚持稳健、持久的发展理念，以长远的眼光和扎实的专业能力，助力企业实现可持续发展目标。</p>
                 </div>
                 <div class="about-stats">
                     <div class="stat-item">
                         <span class="stat-icon">🌱</span>
-                        <span class="stat-label">绿色发展</span>
+                        <span class="stat-label" data-i18n="stat_green">绿色发展</span>
                     </div>
                     <div class="stat-item">
                         <span class="stat-icon">💡</span>
-                        <span class="stat-label">创新驱动</span>
+                        <span class="stat-label" data-i18n="stat_innovation">创新驱动</span>
                     </div>
                     <div class="stat-item">
                         <span class="stat-icon">🤝</span>
-                        <span class="stat-label">诚信合作</span>
+                        <span class="stat-label" data-i18n="stat_integrity">诚信合作</span>
                     </div>
                 </div>
             </div>
@@ -77,28 +84,28 @@
     <!-- 业务范围 -->
     <section id="services" class="section services">
         <div class="container">
-            <h2 class="section-title">业务范围</h2>
+            <h2 class="section-title" data-i18n="services_title">业务范围</h2>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">⚡</div>
-                    <h3>新能源技术咨询</h3>
-                    <p>提供全面的新能源领域技术咨询服务，包括可再生能源规划、能源效率评估、碳排放管理等专业顾问服务。</p>
+                    <h3 data-i18n="service_energy_title">新能源技术咨询</h3>
+                    <p data-i18n="service_energy_desc">提供全面的新能源领域技术咨询服务，包括可再生能源规划、能源效率评估、碳排放管理等专业顾问服务。</p>
                     <ul class="service-list">
-                        <li>可再生能源项目规划</li>
-                        <li>能源效率优化方案</li>
-                        <li>碳中和战略咨询</li>
-                        <li>绿色技术转型指导</li>
+                        <li data-i18n="service_energy_item1">可再生能源项目规划</li>
+                        <li data-i18n="service_energy_item2">能源效率优化方案</li>
+                        <li data-i18n="service_energy_item3">碳中和战略咨询</li>
+                        <li data-i18n="service_energy_item4">绿色技术转型指导</li>
                     </ul>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">💻</div>
-                    <h3>IT软件研发</h3>
-                    <p>提供定制化软件开发服务，以先进的技术和敏捷的开发方法，为企业打造高效、可靠的数字化解决方案。</p>
+                    <h3 data-i18n="service_it_title">IT软件研发</h3>
+                    <p data-i18n="service_it_desc">提供定制化软件开发服务，以先进的技术和敏捷的开发方法，为企业打造高效、可靠的数字化解决方案。</p>
                     <ul class="service-list">
-                        <li>企业级软件定制开发</li>
-                        <li>系统架构设计与优化</li>
-                        <li>云计算与大数据服务</li>
-                        <li>智能化解决方案</li>
+                        <li data-i18n="service_it_item1">企业级软件定制开发</li>
+                        <li data-i18n="service_it_item2">系统架构设计与优化</li>
+                        <li data-i18n="service_it_item3">云计算与大数据服务</li>
+                        <li data-i18n="service_it_item4">智能化解决方案</li>
                     </ul>
                 </div>
             </div>
@@ -108,38 +115,38 @@
     <!-- 企业理念 -->
     <section id="values" class="section values">
         <div class="container">
-            <h2 class="section-title">企业理念</h2>
-            <p class="values-intro">我们坚持以可持续发展为核心，将环保理念融入每一项业务实践</p>
+            <h2 class="section-title" data-i18n="values_title">企业理念</h2>
+            <p class="values-intro" data-i18n="values_intro">我们坚持以可持续发展为核心，将环保理念融入每一项业务实践</p>
             <div class="values-grid">
                 <div class="value-item">
                     <div class="value-icon">🌿</div>
-                    <h4>绿色</h4>
-                    <p>倡导绿色发展理念，推动环境友好型技术应用</p>
+                    <h4 data-i18n="value_green">绿色</h4>
+                    <p data-i18n="value_green_desc">倡导绿色发展理念，推动环境友好型技术应用</p>
                 </div>
                 <div class="value-item">
                     <div class="value-icon">🌍</div>
-                    <h4>低碳</h4>
-                    <p>致力于低碳解决方案，减少碳足迹，保护地球家园</p>
+                    <h4 data-i18n="value_lowcarbon">低碳</h4>
+                    <p data-i18n="value_lowcarbon_desc">致力于低碳解决方案，减少碳足迹，保护地球家园</p>
                 </div>
                 <div class="value-item">
                     <div class="value-icon">♻️</div>
-                    <h4>环保</h4>
-                    <p>将环保融入企业DNA，践行可持续发展承诺</p>
+                    <h4 data-i18n="value_eco">环保</h4>
+                    <p data-i18n="value_eco_desc">将环保融入企业DNA，践行可持续发展承诺</p>
                 </div>
                 <div class="value-item">
                     <div class="value-icon">🚀</div>
-                    <h4>效率</h4>
-                    <p>追求卓越效率，以最优方案创造最大价值</p>
+                    <h4 data-i18n="value_efficiency">效率</h4>
+                    <p data-i18n="value_efficiency_desc">追求卓越效率，以最优方案创造最大价值</p>
                 </div>
                 <div class="value-item">
                     <div class="value-icon">🤖</div>
-                    <h4>智能</h4>
-                    <p>拥抱智能技术，以创新驱动业务转型升级</p>
+                    <h4 data-i18n="value_smart">智能</h4>
+                    <p data-i18n="value_smart_desc">拥抱智能技术，以创新驱动业务转型升级</p>
                 </div>
                 <div class="value-item">
                     <div class="value-icon">📈</div>
-                    <h4>长期价值</h4>
-                    <p>专注长期价值创造，与客户共同成长进步</p>
+                    <h4 data-i18n="value_longterm">长期价值</h4>
+                    <p data-i18n="value_longterm_desc">专注长期价值创造，与客户共同成长进步</p>
                 </div>
             </div>
         </div>
@@ -148,35 +155,35 @@
     <!-- 联系我们 -->
     <section id="contact" class="section contact">
         <div class="container">
-            <h2 class="section-title">联系我们</h2>
+            <h2 class="section-title" data-i18n="contact_title">联系我们</h2>
             <div class="contact-content">
                 <div class="contact-info">
                     <div class="contact-item">
                         <span class="contact-icon">🏢</span>
                         <div>
-                            <h4>公司名称</h4>
+                            <h4 data-i18n="contact_company">公司名称</h4>
                             <p>TURTLE RIBS PTE. LTD.</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <span class="contact-icon">📞</span>
                         <div>
-                            <h4>联系电话</h4>
+                            <h4 data-i18n="contact_phone">联系电话</h4>
                             <p><a href="tel:+6590815835">+65 90815835</a></p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <span class="contact-icon">📍</span>
                         <div>
-                            <h4>公司地址</h4>
-                            <p>Singapore</p>
+                            <h4 data-i18n="contact_address">公司地址</h4>
+                            <p data-i18n="contact_address_value">Singapore</p>
                         </div>
                     </div>
                 </div>
                 <div class="contact-message">
-                    <h3>期待与您合作</h3>
-                    <p>无论您是寻求新能源技术咨询还是IT软件研发服务，我们都将竭诚为您提供专业的解决方案。欢迎随时与我们联系，开启合作之旅。</p>
-                    <a href="tel:+6590815835" class="btn btn-primary">立即联系</a>
+                    <h3 data-i18n="contact_cta_title">期待与您合作</h3>
+                    <p data-i18n="contact_cta_desc">无论您是寻求新能源技术咨询还是IT软件研发服务，我们都将竭诚为您提供专业的解决方案。欢迎随时与我们联系，开启合作之旅。</p>
+                    <a href="tel:+6590815835" class="btn btn-primary" data-i18n="btn_contact_now">立即联系</a>
                 </div>
             </div>
         </div>
@@ -190,13 +197,225 @@
                     <span class="logo-icon">🐢</span>
                     <span class="logo-text">TURTLE RIBS PTE. LTD.</span>
                 </div>
-                <p class="footer-tagline">绿色 · 低碳 · 环保 · 效率 · 智能 · 专注长期价值</p>
-                <p class="footer-copyright">&copy; 2025 TURTLE RIBS PTE. LTD. All Rights Reserved.</p>
+                <p class="footer-tagline" data-i18n="footer_tagline">绿色 · 低碳 · 环保 · 效率 · 智能 · 专注长期价值</p>
+                <p class="footer-copyright" data-i18n="footer_copyright">&copy; 2025 TURTLE RIBS PTE. LTD. All Rights
+                    Reserved.</p>
             </div>
         </div>
     </footer>
 
     <script>
+        // 多语言支持
+        const translations = {
+            zh: {
+                // Meta
+                meta_description: "TURTLE RIBS PTE. LTD. - 新能源技术咨询与IT软件研发服务提供商",
+                meta_keywords: "新能源,技术咨询,IT软件,研发,绿色能源,低碳",
+                page_title: "TURTLE RIBS PTE. LTD. | 新能源技术咨询与IT软件研发",
+                // 导航
+                nav_home: "首页",
+                nav_about: "关于我们",
+                nav_services: "业务范围",
+                nav_values: "企业理念",
+                nav_contact: "联系我们",
+                // 首页横幅
+                hero_subtitle: "携手共创绿色未来，智慧驱动长期价值",
+                hero_desc: "专注新能源技术咨询与IT软件研发，为您提供专业、高效的解决方案",
+                btn_contact_us: "联系我们",
+                // 关于我们
+                about_title: "关于我们",
+                about_text1: "TURTLE RIBS PTE. LTD. 是一家专注于新能源技术咨询与IT软件研发的综合性科技服务公司。我们致力于为客户提供专业的技术顾问服务和创新的软件解决方案。",
+                about_text2: "如同我们名字中的海龟一般，我们坚持稳健、持久的发展理念，以长远的眼光和扎实的专业能力，助力企业实现可持续发展目标。",
+                stat_green: "绿色发展",
+                stat_innovation: "创新驱动",
+                stat_integrity: "诚信合作",
+                // 业务范围
+                services_title: "业务范围",
+                service_energy_title: "新能源技术咨询",
+                service_energy_desc: "提供全面的新能源领域技术咨询服务，包括可再生能源规划、能源效率评估、碳排放管理等专业顾问服务。",
+                service_energy_item1: "可再生能源项目规划",
+                service_energy_item2: "能源效率优化方案",
+                service_energy_item3: "碳中和战略咨询",
+                service_energy_item4: "绿色技术转型指导",
+                service_it_title: "IT软件研发",
+                service_it_desc: "提供定制化软件开发服务，以先进的技术和敏捷的开发方法，为企业打造高效、可靠的数字化解决方案。",
+                service_it_item1: "企业级软件定制开发",
+                service_it_item2: "系统架构设计与优化",
+                service_it_item3: "云计算与大数据服务",
+                service_it_item4: "智能化解决方案",
+                // 企业理念
+                values_title: "企业理念",
+                values_intro: "我们坚持以可持续发展为核心，将环保理念融入每一项业务实践",
+                value_green: "绿色",
+                value_green_desc: "倡导绿色发展理念，推动环境友好型技术应用",
+                value_lowcarbon: "低碳",
+                value_lowcarbon_desc: "致力于低碳解决方案，减少碳足迹，保护地球家园",
+                value_eco: "环保",
+                value_eco_desc: "将环保融入企业DNA，践行可持续发展承诺",
+                value_efficiency: "效率",
+                value_efficiency_desc: "追求卓越效率，以最优方案创造最大价值",
+                value_smart: "智能",
+                value_smart_desc: "拥抱智能技术，以创新驱动业务转型升级",
+                value_longterm: "长期价值",
+                value_longterm_desc: "专注长期价值创造，与客户共同成长进步",
+                // 联系我们
+                contact_title: "联系我们",
+                contact_company: "公司名称",
+                contact_phone: "联系电话",
+                contact_address: "公司地址",
+                contact_address_value: "新加坡",
+                contact_cta_title: "期待与您合作",
+                contact_cta_desc: "无论您是寻求新能源技术咨询还是IT软件研发服务，我们都将竭诚为您提供专业的解决方案。欢迎随时与我们联系，开启合作之旅。",
+                btn_contact_now: "立即联系",
+                // 页脚
+                footer_tagline: "绿色 · 低碳 · 环保 · 效率 · 智能 · 专注长期价值",
+                footer_copyright: "© 2025 TURTLE RIBS PTE. LTD. 保留所有权利。"
+            },
+            en: {
+                // Meta
+                meta_description: "TURTLE RIBS PTE. LTD. - New Energy Technology Consulting & IT Software Development",
+                meta_keywords: "new energy,technology consulting,IT software,R&D,green energy,low carbon",
+                page_title: "TURTLE RIBS PTE. LTD. | New Energy Consulting & IT Development",
+                // Navigation
+                nav_home: "Home",
+                nav_about: "About Us",
+                nav_services: "Services",
+                nav_values: "Our Values",
+                nav_contact: "Contact",
+                // Hero
+                hero_subtitle: "Creating a Green Future Together, Wisdom Drives Long-term Value",
+                hero_desc: "Specializing in new energy technology consulting and IT software development, providing professional and efficient solutions",
+                btn_contact_us: "Contact Us",
+                // About
+                about_title: "About Us",
+                about_text1: "TURTLE RIBS PTE. LTD. is a comprehensive technology service company focusing on new energy technology consulting and IT software development. We are committed to providing professional technical consulting services and innovative software solutions to our clients.",
+                about_text2: "Like the turtle in our name, we adhere to a steady and lasting development philosophy, helping enterprises achieve sustainable development goals with a long-term vision and solid professional capabilities.",
+                stat_green: "Green Development",
+                stat_innovation: "Innovation Driven",
+                stat_integrity: "Integrity & Cooperation",
+                // Services
+                services_title: "Our Services",
+                service_energy_title: "New Energy Consulting",
+                service_energy_desc: "Providing comprehensive technical consulting services in the new energy sector, including renewable energy planning, energy efficiency assessment, and carbon emission management.",
+                service_energy_item1: "Renewable Energy Project Planning",
+                service_energy_item2: "Energy Efficiency Optimization",
+                service_energy_item3: "Carbon Neutrality Strategy Consulting",
+                service_energy_item4: "Green Technology Transformation",
+                service_it_title: "IT Software Development",
+                service_it_desc: "Providing customized software development services with advanced technology and agile methods to build efficient and reliable digital solutions for enterprises.",
+                service_it_item1: "Enterprise Software Development",
+                service_it_item2: "System Architecture Design",
+                service_it_item3: "Cloud Computing & Big Data",
+                service_it_item4: "Intelligent Solutions",
+                // Values
+                values_title: "Our Values",
+                values_intro: "We adhere to sustainable development as our core, integrating environmental concepts into every business practice",
+                value_green: "Green",
+                value_green_desc: "Advocating green development and promoting eco-friendly technology",
+                value_lowcarbon: "Low Carbon",
+                value_lowcarbon_desc: "Committed to low-carbon solutions, reducing carbon footprint",
+                value_eco: "Eco-friendly",
+                value_eco_desc: "Integrating environmental protection into our DNA",
+                value_efficiency: "Efficiency",
+                value_efficiency_desc: "Pursuing excellence and creating maximum value",
+                value_smart: "Intelligence",
+                value_smart_desc: "Embracing smart technology and driving innovation",
+                value_longterm: "Long-term Value",
+                value_longterm_desc: "Focusing on long-term value creation with our clients",
+                // Contact
+                contact_title: "Contact Us",
+                contact_company: "Company Name",
+                contact_phone: "Phone",
+                contact_address: "Address",
+                contact_address_value: "Singapore",
+                contact_cta_title: "Looking Forward to Cooperating with You",
+                contact_cta_desc: "Whether you are seeking new energy technology consulting or IT software development services, we will wholeheartedly provide professional solutions. Feel free to contact us anytime.",
+                btn_contact_now: "Contact Now",
+                // Footer
+                footer_tagline: "Green · Low Carbon · Eco-friendly · Efficiency · Intelligence · Long-term Value",
+                footer_copyright: "© 2025 TURTLE RIBS PTE. LTD. All Rights Reserved."
+            }
+        };
+
+        // 获取浏览器语言
+        function getBrowserLanguage() {
+            const lang = navigator.language || navigator.userLanguage;
+            if (lang.startsWith('zh')) {
+                return 'zh';
+            }
+            return 'en'; // 默认英文
+        }
+
+        // 获取当前语言（优先从localStorage读取）
+        function getCurrentLanguage() {
+            const savedLang = localStorage.getItem('language');
+            if (savedLang && (savedLang === 'zh' || savedLang === 'en')) {
+                return savedLang;
+            }
+            return getBrowserLanguage();
+        }
+
+        // 切换语言
+        function setLanguage(lang) {
+            localStorage.setItem('language', lang);
+            applyLanguage(lang);
+            updateLangButtons(lang);
+        }
+
+        // 应用语言到页面
+        function applyLanguage(lang) {
+            const t = translations[lang];
+
+            // 更新页面标题
+            document.title = t.page_title;
+
+            // 更新HTML lang属性
+            document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+
+            // 更新所有带有data-i18n属性的元素
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (t[key]) {
+                    el.textContent = t[key];
+                }
+            });
+
+            // 更新meta标签
+            document.querySelectorAll('[data-i18n-attr]').forEach(el => {
+                const attr = el.getAttribute('data-i18n-attr');
+                const key = el.getAttribute('data-i18n-key');
+                if (t[key]) {
+                    el.setAttribute(attr, t[key]);
+                }
+            });
+        }
+
+        // 更新语言切换按钮状态
+        function updateLangButtons(lang) {
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                if (btn.getAttribute('data-lang') === lang) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+        }
+
+        // 初始化语言
+        document.addEventListener('DOMContentLoaded', function () {
+            const currentLang = getCurrentLanguage();
+            applyLanguage(currentLang);
+            updateLangButtons(currentLang);
+
+            // 语言切换按钮事件
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const lang = this.getAttribute('data-lang');
+                    setLanguage(lang);
+                });
+            });
+        });
+
         // 导航栏滚动效果
         window.addEventListener('scroll', function () {
             const navbar = document.querySelector('.navbar');
